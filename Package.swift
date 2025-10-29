@@ -12,9 +12,7 @@ let package = Package(
     products: [
         .library(name: "WireGuardKit", targets: ["WireGuardKit"])
     ],
-    dependencies: [
-        .package(name: "wg-go-apple", url: "https://github.com/soo20987/wg-go-apple", .branch("master"))
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "WireGuardKit",
